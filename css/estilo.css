@@ -30,6 +30,15 @@
     align-items: center;
     
 }
+.img-fluid{
+    width: 400px;
+    height: 485px;
+    transition: width 1s, height 1s;
+}
+.img-fluid:hover{
+    width: 450px;
+    height: 500px;
+}
 
 .col-md-4{
     background-color: #ffff;
