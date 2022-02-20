@@ -4,7 +4,7 @@
 
 .menu{
     margin-left: none;
-    margin-right: 100%;
+    margin-right: none;
 }
 #galeria{
     padding-right: var(--bs-gutter-x, 0.75rem);
@@ -19,15 +19,18 @@
     padding: 2%;
     background-color: gray;
 }
-.card-test{
-    color:black;
+.card-body{
+    color: black;
 }
-.conteudo{
-    margin-right: 15%;
-    margin-left: 15%;
-    width: auto ;
-    text-align: center;
+.border{
+    height: 3px;
+    margin: 40px auto 40px;
+    width: 50%;
+    background: gray;
+    align-items: center;
+    
 }
+
 .col-md-4{
     background-color: #ffff;
 }
@@ -51,12 +54,5 @@
 h1{
     color: aqua;
 }
-@media (min-width:768px) {
-    .menu{
-        margin-left: 41%;
-        flex-direction: row;
 
-    }
-    
-}
 
